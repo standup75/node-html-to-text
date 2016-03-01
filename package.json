@@ -1,24 +1,20 @@
 {
-  "name": "html-to-text",
-  "version": "2.0.0",
-  "description": "Advanced html to plain text converter",
+  "name": "mime-email-formatter",
+  "version": "3.0.2",
+  "description": "Advanced converter that parses HTML and returns simply formatted HTML",
   "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "example": "node ./example/html-to-text.js"
-  },
   "author": {
-    "name": "Malte Legenhausen",
-    "email": "legenhausen@werk85.de"
+    "name": "Stanislas Duprey",
+    "email": "stanislas.duprey@gmail.com"
   },
-  "homepage": "https://github.com/werk85/node-html-to-text",
+  "homepage": "https://github.com/standup75/node-mime-email-formatter",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/werk85/node-html-to-text.git"
+    "url": "git://github.com/standup75/node-mime-email-formatter"
   },
   "bugs": {
-    "url": "https://github.com/werk85/node-html-to-text/issues"
+    "url": "https://github.com/standup75/node-mime-email-formatter/issues"
   },
   "dependencies": {
     "he": "^0.5.0",
@@ -30,19 +26,12 @@
   "keywords": [
     "html",
     "node",
-    "text",
     "mail",
     "plain",
+    "mime",
     "converter"
   ],
   "engines": {
     "node": ">= 0.10.0"
-  },
-  "bin": {
-    "html-to-text": "./bin/cli.js"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
   }
 }
